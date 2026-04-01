@@ -13,11 +13,26 @@
 package com.lab4;
 
 public class Pizza {
+    /**
+     * Type of pizza
+     */
     private String type;
+    /**
+     * Size of pizza
+     */
     private String size;
+    /**
+     * Price of the pizza
+     */
     private double price;
 
-    // Constructor
+    /**
+     * Constructs a Pizza object with type, size, and price.
+     *
+     * @param type the type of pizza
+     * @param size the size of pizza
+     * @param price the price of pizza
+     */
     public Pizza(String type, String size, double price) {
         this.type = type;
         this.size = size;
